@@ -1,0 +1,82 @@
+/* Google Fonts */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    padding: 15px;
+}
+
+.navbar .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    padding: 50px;
+    background: #f4f4f4;
+}
+
+.hero h1 span {
+    color: #007bff;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Contact Form */
+.contact {
+    padding: 30px;
+    background: #ddd;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+.contact input, .contact textarea {
+    padding: 10px;
+    margin: 5px;
+}
+
+.contact button {
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
